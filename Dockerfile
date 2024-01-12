@@ -1,4 +1,4 @@
-FROM fredblyr/ubuntu-novne:20.04
+FROM fredblyr/ubuntu-novnc:20.04
 
 # Expose the port on which NoVNC runs (80 inside the contalner )
  EXPOSE 80
