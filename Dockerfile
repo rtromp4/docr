@@ -7,4 +7,4 @@ FROM fredblyr/ubuntu-novne:20.04
 
 ENV RESOLUTION 1707x1067
 
-CMD ["supervasord", "-c", "/etc/supervisor/supervisord.conf”]
+CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf”]
